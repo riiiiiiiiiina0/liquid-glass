@@ -4,6 +4,8 @@ A beautiful, standalone glassmorphism effect with liquid distortion and chromati
 
 ![](./docs/poster.jpg)
 
+[Try demo here](https://riiiiiiiiiina0.github.io/liquid-glass/) 🐻‍❄️
+
 ## ✨ Features
 
 - **Zero Dependencies**: Pure vanilla JavaScript, no external libraries required
