@@ -5,11 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liquid Glass demo</title>
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥃</text></svg>">
+  <link href="https://fonts.googleapis.com/css?family=Dynalight&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       padding: 0;
       overflow: hidden;
+      font-family: 'Dynalight', cursive;
     }
 
     img {
@@ -25,12 +29,22 @@
       width: 100vw;
       height: 100vh;
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      font-size: 5rem;
-      font-family: 'Arial', sans-serif;
-      font-weight: bold;
       color: white;
+    }
+
+    .overlay h1 {
+      font-size: 10rem;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .overlay p {
+      font-size: 2rem;
+      padding: 0 50px;
+      text-align: center;
     }
 
     .glass {
@@ -46,7 +60,11 @@
 
 <body>
   <img src="./src/image.jpeg" alt="Image">
-  <div class="overlay">Liquid Glass</div>
+  <div class="overlay">
+    <h1>Liquid Glass</h1>
+    <p>A beautiful, standalone glassmorphism effect with liquid distortion and chromatic aberration. This component can
+      be easily integrated into any web application.</p>
+  </div>
   <div class="glass"></div>
 
   <script type="module" src="./src/index.js"></script>
