@@ -1,0 +1,15 @@
+{
+  "name": "liquid-glass",
+  "version": "1.0.0",
+  "description": "A beautiful, standalone glassmorphism effect with liquid distortion and chromatic aberration. This component can be easily integrated into any web application.",
+  "main": "liquid-glass.js",
+  "scripts": {
+    "dev": "http-server -p 8090 -s"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

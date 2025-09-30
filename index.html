@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Glass demo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5rem;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
+      color: white;
+    }
+
+    .glass {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="./src/image.jpeg" alt="Image">
+  <div class="overlay">Liquid Glass</div>
+  <div class="glass"></div>
+
+  <script type="module" src="./src/index.js"></script>
+</body>
+
+</html>
